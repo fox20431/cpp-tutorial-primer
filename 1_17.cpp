@@ -1,4 +1,4 @@
-// What happens in the program presented in this section if theinput values are all equal? What if there are no duplicated values?
+// What happens in the following program if theinput values are all equal? What if there are no duplicated values?
 
 #include <iostream>
 int main()
