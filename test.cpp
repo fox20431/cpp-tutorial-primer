@@ -1,7 +1,10 @@
 #include <iostream>
-int main() {
-	std::cout << "hello1" << std::endl;
-	std::cout << "hello2" << std::endl;
-	std::cout << "hello2" << std::endl;
-	return 0;
+int main()
+{
+	// int sum = 0, value = 0;
+	// while (std::cin >> value)
+	// 	sum += value; 
+	// std::cout << "Sum is: " << sum << std::endl;
+	int v1 = 0, v2 = 0;
+	cout << v1 + v2 << std::endl;
 }
