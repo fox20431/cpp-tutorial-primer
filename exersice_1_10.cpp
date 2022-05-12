@@ -3,10 +3,10 @@
 int main()
 {
     int value = 10;
-    while (value < 0)
+    while (value >= 0)
     {
-        value--;
         std::cout << value << std::endl;
+        value--;
     }
     return 0;
 }

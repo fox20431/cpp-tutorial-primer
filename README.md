@@ -10,29 +10,6 @@ C++ 的编译器有：GCC、LLVM、MSVC等。请自助选择编译器，这里�
 
 你可以在 VS Code 中使用这些样本，为了是你的开发更加便捷，你需要 VS Code 中的 C/C++ 插件，同时你需要为项目配置下列内容：
 
-./.vscode/launch.json
-
-```json
-{
-	"version": "0.2.0",
-	"configurations": [
-		{
-			"name": "clang - Build and debug active file",
-			"type": "cppdbg",
-			"request": "launch",
-			"program": "${fileDirname}/${fileBasenameNoExtension}",
-			"args": [],
-			"stopAtEntry": true,
-			"cwd": "${workspaceFolder}",
-			"environment": [],
-			"externalConsole": false,
-			"MIMode": "lldb",
-			"preLaunchTask": "clang++ build active file"
-		},
-	]
-}
-```
-
 ./.vscode/tasks.json
 
 ```json
@@ -63,6 +40,29 @@ C++ 的编译器有：GCC、LLVM、MSVC等。请自助选择编译器，这里�
             }
         }
     ],
+}
+```
+
+./.vscode/launch.json
+
+```json
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "clang - Build and debug active file",
+			"type": "cppdbg",
+			"request": "launch",
+			"program": "${fileDirname}/${fileBasenameNoExtension}",
+			"args": [],
+			"stopAtEntry": true,
+			"cwd": "${workspaceFolder}",
+			"environment": [],
+			"externalConsole": false,
+			"MIMode": "lldb",
+			"preLaunchTask": "clang++ build active file"
+		},
+	]
 }
 ```
 
