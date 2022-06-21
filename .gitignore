@@ -3,3 +3,5 @@
 !.gitignore
 !README.md
 !rename.sh
+!.vscode
+!CMakeLists.txt
